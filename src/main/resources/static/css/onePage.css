@@ -136,7 +136,7 @@
         background: url(../img/main.png) center center no-repeat;
     }
 
-    .first div {
+    .first > div {
         padding-top: 130px;
     }
 
@@ -147,6 +147,24 @@
     .first h1, .first h2 {
         margin: 0px auto;
         color: #fff;
+    }
+
+    .introLink {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .introLink h5 {
+        color: #fff;
+        margin: 0px;
+    }
+
+    .linkWrapper {
+        width: 100px;
+        border: 1px solid #fff;
+        position: absolute;
+        animation: ani 1s infinite;
     }
 
     .line {
@@ -162,6 +180,7 @@
     .message {
         margin: 0px auto;
         color: #c7f2ff;
+        line-height: 25px;
     }
 
     .second, .third {
@@ -222,12 +241,14 @@
         letter-spacing: 10px;
         font-size: xxx-large;
         font-weight: bold;
-        text-transform: uppercase
+        text-transform: uppercase;
+        text-shadow: 2px 2px 2px #d9d9d9;
     }
 
     .explain {
         font-size: 13px;
         color: #343434;
+        line-height: 20px;
     }
 
     .ex_bar {
@@ -258,6 +279,7 @@
     .third p {
         /*color: #343434;*/
         color: #fff;
+        text-shadow: 2px 2px 2px #d9d9d9;
     }
 
     .intro ul {
@@ -321,7 +343,7 @@
     }
 
     .infoTxt {
-        width: 48%;
+        width: 40%;
         height: 100%;
         border-right: 1px solid lightgray;
         overflow: hidden;
@@ -336,15 +358,15 @@
     }
 
     .contact {
-        width: 48%;
+        width: 56%;
         height: 100%;
         text-align: left;
         margin-left: 20px;
-        padding-top: 70px;
+        padding-top: 80px;
     }
 
     .contact h2 {
-        font-size: revert;
+        font-size: larger;
         color: #fff;
         margin: 0px;
         padding-bottom: 20px;
