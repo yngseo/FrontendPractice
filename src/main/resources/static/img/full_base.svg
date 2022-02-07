@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 800 600" preserveAspectRatio="none">
+	<rect id="base" fill="#162976" width="800" height="600"/>
+	<linearGradient id="T_1_" gradientUnits="userSpaceOnUse" x1="153.1704" y1="150.3457" x2="677.2455" y2="38.7543">
+		<stop offset="0.0887" style="stop-color:#BBE8FF;stop-opacity:0.7"/>
+		<stop offset="0.9261" style="stop-color:#2A77FF;stop-opacity:0.5"/>
+	</linearGradient>
+	<path id="T" opacity="0.3" fill="url(#T_1_)" d="M0,0v83.006l220.332,236c126.667-110,406-222.667,578.668-245.333V0H0z"/>
+	<linearGradient id="LB1_1_" gradientUnits="userSpaceOnUse" x1="6.0303" y1="315.8398" x2="447.0876" y2="596.4606">
+		<stop offset="0" style="stop-color:#12347C"/>
+		<stop offset="0.9163" style="stop-color:#113B85"/>
+	</linearGradient>
+	<path id="LB1" fill="url(#LB1_1_)" d="M800,600H511.665H0c0,0,0-540.333,0-559.666c112.999,215.333,413.665,416.667,800,492.668
+	C800,566.334,800,600,800,600z"/>
+	<path id="LB2" fill="#162976" d="M0,600c0,0,372.999,0,382.999,0C302.999,434.999,178.332,314.332,0,222.999C0,236.999,0,600,0,600z
+	"/>
+	<path id="RB" opacity="0.25" fill="#FFFFFF" d="M800,270.337C765.665,353.004,617.665,531.67,511.665,600
+	C524.998,600,800,600,800,600S800,290.337,800,270.337z"/>
+	<path id="RT" opacity="0.3" fill="#FFFFFF" d="M800,342.338C767.666,277.005,654.332,87.005,516.999,0C530.332,0,800,0,800,0
+	S800,325.005,800,342.338z"/>
+</svg>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1100px, user-scalable=yes">
+    <link rel="stylesheet" href="css/onePage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="js/onePage.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<!--<dt hidden>
+    <dt>바로가기 메뉴</dt>
+    <dd>메뉴 바로가기</dd>
+    <dd>본문 바로가기</dd>
+</dt>-->
+<header>
+    <a href="/"><img src="img/logo_kor.svg" alt="로고"></a>
+    <ul class="lang">
+        <li><a><span class="kor">KOR</span></a></li>
+        <li><a><span class="eng">ENG</span></a></li>
+    </ul>
+</header>
+<div class="three col" id="more">
+<div class="hamburger" id="hamburger-2">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+</div>
+</div>
+<nav>
+    <ul>
+        <li><a href="/content.php?cid=about"><span>회사소개</span></a>
+            <ul>
+                <li><a href="/content.php?cid=about">회사개요</a></li>
+                <li><a href="/content.php?cid=history">회사연혁</a></li>
+                <li><a href="/content.php?cid=ci">CI</a></li>
+                <li><a href="/content.php?cid=recruit">인력채용</a></li>
+                <li><a href="/content.php?cid=map">찾아오시는 길</a></li>
+            </ul>
+        </li>
+        <li><a href="/content.php?cid=fortinet"><span>보안솔루션</span></a>
+            <ul>
+                <li><a href="/content.php?cid=fortinet">Fortinet</a></li>
+                <li><a href="/content.php?cid=juniper">Juniper</a></li>
+                <li><a href="/content.php?cid=radware">Radware</a></li>
+                <li><a href="/content.php?cid=symantec">Symantec</a></li>
+                <li><a href="/content.php?cid=rapid7">Rapid7</a></li>
+                <li><a href="/content.php?cid=arbor">Arbor</a></li>
+                <li><a href="/content.php?cid=f5networks">F5 Networks</a></li>
+                <li><a href="/content.php?cid=tippingpoint">Tippingpoint</a></li>
+            </ul>
+        </li>
+        <li><a href="/content.php?cid=dt_intro"><span>DT사업</span></a>
+            <ul>
+                <li><a href="/content.php?cid=dt_intro">DT 사업 소개</a></li>
+                <li><a href="/content.php?cid=dt_ai">AI 솔루션</a></li>
+                <li><a href="/content.php?cid=dt_bigdata">Bigdata 솔루션</a></li>
+                <li><a href="/content.php?cid=dt_cloud">Cloud 솔루션</a></li>
+                <li><a href="/content.php?cid=dt_it">IT 보안솔루션</a></li>
+                <li><a href="/content.php?cid=dt_ot">OT 보안솔루션</a></li>
+            </ul>
+        </li>
+        <li><a href="/content.php?cid=security1"><span>보안관제</span></a>
+            <ul>
+                <li><a href="/content.php?cid=security1">서비스소개</a></li>
+                <li><a href="/content.php?cid=security2">서비스특징</a></li>
+                <li><a href="/content.php?cid=security3">서비스방법</a></li>
+                <li><a href="/content.php?cid=security4">제공서비스</a></li>
+            </ul>
+        </li>
+        <li><a href="/content.php?cid=sc_01"><span>보안컨설팅</span></a>
+            <ul>
+                <li><a href="/content.php?cid=sc_01">보안 컨설팅 서비스 종류</a></li>
+                <li><a href="/content.php?cid=sc_02">컨설팅 수행절차</a></li>
+                <li><a href="/content.php?cid=sc_03">기술 취약점 진단</a></li>
+                <li><a href="/content.php?cid=sc_04">모의해킹</a></li>
+                <li><a href="/content.php?cid=sc_05">모바일 모의해킹</a></li>
+            </ul>
+        </li>
+        <li><a href="/content.php?cid=cs_01"><span>클라우드 서비스</span></a>
+            <ul>
+                <li><a href="/content.php?cid=cs_01">클라우드 서비스 소개</a></li>
+                <li><a href="/content.php?cid=cs_02">컨설팅 서비스</a></li>
+                <li><a href="/content.php?cid=cs_03">마이그레이션</a></li>
+                <li><a href="/content.php?cid=cs_04">매니지드 서비스</a></li>
+                <li><a href="/content.php?cid=cs_05">최적화 서비스</a></li>
+                <li><a href="/content.php?cid=cs_06">보안 서비스</a></li>
+                <li><a href="/content.php?cid=cs_07">주요 고객사</a></li>
+            </ul>
+        </li>
+        <li><a href="/content.php?cid=si1"><span>보안SI</span></a>
+            <ul>
+                <li><a href="/content.php?cid=si1">서비스소개</a></li>
+                <li><a href="/content.php?cid=si2">서비스특징</a></li>
+                <li><a href="/content.php?cid=si3">서비스분야</a></li>
+                <li><a href="/content.php?cid=si4">서비스방법론</a></li>
+                <li><a href="/content.php?cid=si5">서비스기대효과</a></li>
+            </ul>
+        </li>
+        <li><a href="/content.php?cid=maintenance1"><span>통합유지보수</span></a>
+            <ul>
+                <li><a href="/content.php?cid=maintenance1">서비스소개</a></li>
+                <li><a href="/content.php?cid=maintenance2">서비스특징</a></li>
+                <li><a href="/content.php?cid=maintenance3">서비스방법론</a></li>
+                <li><a href="/content.php?cid=maintenance4">서비스기대효과</a></li>
+            </ul>
+        </li>
+        <li><a href="/bbs/board.php?bo_table=notice"><span>고객서비스</span></a>
+            <ul>
+                <li><a href="/bbs/board.php?bo_table=notice">보안공지</a></li>
+                <li><a href="https://www.cmteyes.co.kr" target="_blank">고객CRM</a></li>
+            </ul>
+        </li>
+    </ul>      
+</nav>
+<main>
+    <div class="main">
+        <section class="first">
+            <div>
+                <h1>미래를 위한 준비</h1>
+                <h2>Achieve Better, Faster Business, Outcomes</h2>
+                <p class="line"></p>
+                <p class="message">씨엠티정보통신은 더 나은, 더 빠른 성과를 위해 네트워크, 시스템 통합 및 보안 시스템에 이르기까지
+                    <br>고객의 요구사항을 충족하는 다양한 제품과 솔루션을 제공하고 있습니다.</p>
+            </div>
+        </section>
+        <section class="second">
+            <div class="intro">
+                <h1>service</h1>
+                <div class="listWrap">
+                    <ul>
+                        <li>
+                            <div><a><img src="img/mC01_on.png" alt="보안관제"></a></div>
+                            <p class="ex_bar"></p>
+                            <p class="ex_round"></p>
+                            <h2>보안관제</h2>
+                            <p class="explain">365일 24시간<br>종합보안관제 대행 서비스</p>
+                        </li>
+                        <li>
+                            <div><a><img src="img/mC02_on.png" alt="보안솔루션"></a></div>
+                            <p class="ex_bar"></p>
+                            <p class="ex_round"></p>
+                            <h2>보안솔루션</h2>
+                            <p class="explain">고객 환경에 맞는<br>맞춤형 솔루션 제공</p>
+                        </li>
+                        <li>
+                            <div><a><img src="img/mC03_on.png" alt="보안SI"></a></div>
+                            <p class="ex_bar"></p>
+                            <p class="ex_round"></p>
+                            <h2>보안SI</h2>
+                            <p class="explain">체계적인 보안시스템 설계,<br>최적의 정보보호 솔루션 구축을 통한<br>통합 보안 서비스 제공</p>
+                        </li>
+                        <li>
+                            <div><a><img src="img/mC04_on.png" alt="통합유지보수"></a></div>
+                            <p class="ex_bar"></p>
+                            <p class="ex_round"></p>
+                            <h2>통합유지보수</h2>
+                            <p class="explain">365일 24시간<br>무중단 IT 서비스를 제공</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="third">
+            <div>
+                <h1>our cooperator</h1>
+                <p class="line"></p>
+                <p>
+                    씨엠티정보통신은 다양한 분야의 대기업과 중소기업의 고객군에게 보안 솔루션 및 서비스를 성공적으로 제공하고 있습니다.
+                </p>
+                <aside>
+                    <div class="slide_box">
+                        <ul class="slide_wrap">
+                            <li class="slide_item"><a><img src="img/arbor.gif" alt="arbor"></a></li> <!--tab으로 접근 가능 (or tab index 사용) = a가 가장 이상적-->
+                            <li class="slide_item"><a><img src="img/juniper.gif" alt="juniper"></a></li>
+                            <li class="slide_item"><a><img src="img/rapid.gif" alt="rapid"></a></li>
+                            <li class="slide_item"><a><img src="img/radware.gif" alt="radware"></a></li>
+                            <li class="slide_item"><a><img src="img/igloo.gif" alt="igloo"></a></li>
+                            <li class="slide_item"><a><img src="img/aws.jpg" alt="aws"></a></li>
+                            <li class="slide_item"><a><img src="img/networking.gif" alt="networking"></a></li>
+                            <li class="slide_item"><a><img src="img/procera.gif" alt="procera"></a></li>
+                            <li class="slide_item"><a><img src="img/rsa.gif" alt="rsa"></a></li>
+                        </ul>
+                        <button type="button" class="prev" onclick="moveType=1"><</button>
+                        <button type="button" class="next" onclick="moveType=0">></button>
+                        <!--        <button type="button" class="pause" onClick="movePause=true;">일시정지</button>
+                                <button type="button" class="start" onClick="goMove();">움직이기</button>-->
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <section class="fourth">
+            <div class="cmtInfo">
+                <div class="info">
+                    <div class="infoTxt">
+                        <h1>문의처</h1>
+                    </div>
+                    <div class="contact">
+                        <h3>제품문의</h3>
+                        <h2>02-6011-1377</h2>
+                        <h3>보안관제센터</h3>
+                        <h2>02-6011-2337</h2>
+                        <h3>E-mail</h3>
+                        <h2>adm@cmtinfo.co.kr</h2>
+                    </div>
+                </div>
+                <div class="crm">
+                    <div class="crmWrapper">
+                        <div class="crmLetter">
+                            <h1>고객 CRM</h1>
+                        </div>
+                        <div class="link">
+                            <!--<p><img src="img/crmlogo.svg" alt="고객 CRM"></p>-->
+                            <p><a><img src="img/c5_arrow.png" alt="CRM 바로가기"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <ul class="pageNavi" id="pagination">
+            <li><a href="" class="scroll_move"><span>1</span></a></li>
+            <li><a href="" class="scroll_move"><span>2</span></a></li>
+            <li><a href="" class="scroll_move"><span>3</span></a></li>
+            <li><a href="" class="scroll_move"><span>4</span></a></li>
+        </ul>
+    </div>
+</main>
+<footer>
+    <div class="footerInfo">
+        <ul>
+            <li>이용약관 및 법적고지</li>
+            <li>개인정보 처리방침</li>
+            <li>회사소개</li>
+            <li>채용정보</li>
+        </ul>
+    </div>
+    <div class="footer">
+        <address>
+            (04798) 서울시 성동구 성수이로22길 37, 803호(성수동2가, 아크밸리)<span class="ft_line">|</span>Tel : 02-6011-1377<span class="ft_line">|</span>Fax : 02-463-1376<span class="ft_line">|</span>E-mail: adm@cmtinfo.co.kr<span class="ft_line">|</span>사업자번호 : 215-87-14581<br>
+            COPYRIGHT © CMT정보통신 ALL RIGHTS RESERVED.
+        </address>
+    </div>
+</footer>
+</body>
+<script>
+
+</script>
+</html>
+
+<!--data-href 사용-->
