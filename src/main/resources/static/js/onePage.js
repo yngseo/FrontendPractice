@@ -1,8 +1,3 @@
-let more = document.getElementById("hamburger-2");
-more.addEventListener("click", () => { /*onclick*/
-    document.querySelector("nav:not(#col)").classList.toggle('is-active');
-    more.classList.toggle('is-active');
-})
 
 let list = document.querySelectorAll("nav > ul > li");
 list.forEach((li, i) => {
@@ -31,10 +26,20 @@ btn.forEach(_btn => {
 })
 
 let section = document.querySelectorAll(".main section");
+let sectionCnt = section.length;
 window.addEventListener('scroll', () => {
     let scrollLocation = document.documentElement.scrollTop; // 현재 스크롤바 위치
     section.forEach((list, i) => {
         let sectionTop = section[i].offsetTop;
+/*        if (scrollLocation == 0) {
+            btn[0].style.backgroundColor = "#21409A"
+        } else if (scrollLocation >= sectionTop && scrollLocation < sectionTop+section[i].offsetHeight) {
+            btn[i].style.backgroundColor = "#21409A"
+        } else if (scrollLocation + window.innerHeight == document.querySelector("body").scrollHeight) {
+            btn[sectionCnt-1].style.backgroundColor = "#21409A"
+        } else {
+            btn[i].style.backgroundColor = "#dcdcdc"
+        }*/
         if (scrollLocation >= sectionTop && scrollLocation < sectionTop+section[i].offsetHeight) {
             btn[i].style.backgroundColor = "#21409A"
         } else {

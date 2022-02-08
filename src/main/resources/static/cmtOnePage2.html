@@ -11,99 +11,75 @@
     <script defer src="js/onePage.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
+<!--<dt hidden>
+    <dt>바로가기 메뉴</dt>
+    <dd>메뉴 바로가기</dd>
+    <dd>본문 바로가기</dd>
+</dt>-->
 <header>
     <a href="/"><img src="img/logo_kor.svg" alt="로고"></a>
+    <nav>
+        <ul>
+            <li><a href="/content.php?cid=about"><span>회사소개</span></a>
+                <ul>
+                    <li><a href="/content.php?cid=about">회사개요</a></li>
+                    <li><a href="/content.php?cid=history">회사연혁</a></li>
+                    <li><a href="/content.php?cid=ci">CI</a></li>
+                    <li><a href="/content.php?cid=recruit">인력채용</a></li>
+                    <li><a href="/content.php?cid=map">찾아오시는 길</a></li>
+                </ul>
+            </li>
+            <li><a href="/content.php?cid=fortinet"><span>보안솔루션</span></a>
+                <ul>
+                    <li><a href="/content.php?cid=fortinet">Fortinet</a></li>
+                    <li><a href="/content.php?cid=juniper">Juniper</a></li>
+                    <li><a href="/content.php?cid=radware">Radware</a></li>
+                    <li><a href="/content.php?cid=symantec">Symantec</a></li>
+                    <li><a href="/content.php?cid=rapid7">Rapid7</a></li>
+                    <li><a href="/content.php?cid=arbor">Arbor</a></li>
+                    <li><a href="/content.php?cid=f5networks">F5 Networks</a></li>
+                    <li><a href="/content.php?cid=tippingpoint">Tippingpoint</a></li>
+                </ul>
+            </li>
+            <li><a href="/content.php?cid=security1"><span>보안관제</span></a>
+                <ul>
+                    <li><a href="/content.php?cid=security1">서비스소개</a></li>
+                    <li><a href="/content.php?cid=security2">서비스특징</a></li>
+                    <li><a href="/content.php?cid=security3">서비스방법</a></li>
+                    <li><a href="/content.php?cid=security4">제공서비스</a></li>
+                </ul>
+            </li>
+            <li><a href="/content.php?cid=si1"><span>보안SI</span></a>
+                <ul>
+                    <li><a href="/content.php?cid=si1">서비스소개</a></li>
+                    <li><a href="/content.php?cid=si2">서비스특징</a></li>
+                    <li><a href="/content.php?cid=si3">서비스분야</a></li>
+                    <li><a href="/content.php?cid=si4">서비스방법론</a></li>
+                    <li><a href="/content.php?cid=si5">서비스기대효과</a></li>
+                </ul>
+            </li>
+            <li><a href="/content.php?cid=maintenance1"><span>통합유지보수</span></a>
+                <ul>
+                    <li><a href="/content.php?cid=maintenance1">서비스소개</a></li>
+                    <li><a href="/content.php?cid=maintenance2">서비스특징</a></li>
+                    <li><a href="/content.php?cid=maintenance3">서비스방법론</a></li>
+                    <li><a href="/content.php?cid=maintenance4">서비스기대효과</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     <ul class="lang">
         <li><a><span class="kor">KOR</span></a></li>
         <li><a><span class="eng">ENG</span></a></li>
     </ul>
+<!--    <div class="three col" id="more">
+        <div class="hamburger" id="hamburger-2">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </div>-->
 </header>
-<nav>
-    <ul>
-        <li><a href="/content.php?cid=about"><span>회사소개</span></a>
-            <ul>
-                <li><a href="/content.php?cid=about">회사개요</a></li>
-                <li><a href="/content.php?cid=history">회사연혁</a></li>
-                <li><a href="/content.php?cid=ci">CI</a></li>
-                <li><a href="/content.php?cid=recruit">인력채용</a></li>
-                <li><a href="/content.php?cid=map">찾아오시는 길</a></li>
-            </ul>
-        </li>
-        <li><a href="/content.php?cid=fortinet"><span>보안솔루션</span></a>
-            <ul>
-                <li><a href="/content.php?cid=fortinet">Fortinet</a></li>
-                <li><a href="/content.php?cid=juniper">Juniper</a></li>
-                <li><a href="/content.php?cid=radware">Radware</a></li>
-                <li><a href="/content.php?cid=symantec">Symantec</a></li>
-                <li><a href="/content.php?cid=rapid7">Rapid7</a></li>
-                <li><a href="/content.php?cid=arbor">Arbor</a></li>
-                <li><a href="/content.php?cid=f5networks">F5 Networks</a></li>
-                <li><a href="/content.php?cid=tippingpoint">Tippingpoint</a></li>
-            </ul>
-        </li>
-        <li><a href="/content.php?cid=dt_intro"><span>DT사업</span></a>
-            <ul>
-                <li><a href="/content.php?cid=dt_intro">DT 사업 소개</a></li>
-                <li><a href="/content.php?cid=dt_ai">AI 솔루션</a></li>
-                <li><a href="/content.php?cid=dt_bigdata">Bigdata 솔루션</a></li>
-                <li><a href="/content.php?cid=dt_cloud">Cloud 솔루션</a></li>
-                <li><a href="/content.php?cid=dt_it">IT 보안솔루션</a></li>
-                <li><a href="/content.php?cid=dt_ot">OT 보안솔루션</a></li>
-            </ul>
-        </li>
-        <li><a href="/content.php?cid=security1"><span>보안관제</span></a>
-            <ul>
-                <li><a href="/content.php?cid=security1">서비스소개</a></li>
-                <li><a href="/content.php?cid=security2">서비스특징</a></li>
-                <li><a href="/content.php?cid=security3">서비스방법</a></li>
-                <li><a href="/content.php?cid=security4">제공서비스</a></li>
-            </ul>
-        </li>
-        <li><a href="/content.php?cid=sc_01"><span>보안컨설팅</span></a>
-            <ul>
-                <li><a href="/content.php?cid=sc_01">보안 컨설팅 서비스 종류</a></li>
-                <li><a href="/content.php?cid=sc_02">컨설팅 수행절차</a></li>
-                <li><a href="/content.php?cid=sc_03">기술 취약점 진단</a></li>
-                <li><a href="/content.php?cid=sc_04">모의해킹</a></li>
-                <li><a href="/content.php?cid=sc_05">모바일 모의해킹</a></li>
-            </ul>
-        </li>
-        <li><a href="/content.php?cid=cs_01"><span>클라우드 서비스</span></a>
-            <ul>
-                <li><a href="/content.php?cid=cs_01">클라우드 서비스 소개</a></li>
-                <li><a href="/content.php?cid=cs_02">컨설팅 서비스</a></li>
-                <li><a href="/content.php?cid=cs_03">마이그레이션</a></li>
-                <li><a href="/content.php?cid=cs_04">매니지드 서비스</a></li>
-                <li><a href="/content.php?cid=cs_05">최적화 서비스</a></li>
-                <li><a href="/content.php?cid=cs_06">보안 서비스</a></li>
-                <li><a href="/content.php?cid=cs_07">주요 고객사</a></li>
-            </ul>
-        </li>
-        <li><a href="/content.php?cid=si1"><span>보안SI</span></a>
-            <ul>
-                <li><a href="/content.php?cid=si1">서비스소개</a></li>
-                <li><a href="/content.php?cid=si2">서비스특징</a></li>
-                <li><a href="/content.php?cid=si3">서비스분야</a></li>
-                <li><a href="/content.php?cid=si4">서비스방법론</a></li>
-                <li><a href="/content.php?cid=si5">서비스기대효과</a></li>
-            </ul>
-        </li>
-        <li><a href="/content.php?cid=maintenance1"><span>통합유지보수</span></a>
-            <ul>
-                <li><a href="/content.php?cid=maintenance1">서비스소개</a></li>
-                <li><a href="/content.php?cid=maintenance2">서비스특징</a></li>
-                <li><a href="/content.php?cid=maintenance3">서비스방법론</a></li>
-                <li><a href="/content.php?cid=maintenance4">서비스기대효과</a></li>
-            </ul>
-        </li>
-        <li><a href="/bbs/board.php?bo_table=notice"><span>고객서비스</span></a>
-            <ul>
-                <li><a href="/bbs/board.php?bo_table=notice">보안공지</a></li>
-                <li><a href="https://www.cmteyes.co.kr" target="_blank">고객CRM</a></li>
-            </ul>
-        </li>
-    </ul>
-</nav>
 <main>
     <div class="main">
         <section class="first">
@@ -113,7 +89,12 @@
                 <p class="line"></p>
                 <p class="message">씨엠티정보통신은 더 나은, 더 빠른 성과를 위해 네트워크, 시스템 통합 및 보안 시스템에 이르기까지
                     <br>고객의 요구사항을 충족하는 다양한 제품과 솔루션을 제공하고 있습니다.</p>
-                <a href="" class="more_btn">자세히보기</a>
+<!--                <div class="introLink">
+                    <div class="linkWrapper">
+                        <h5>Introduce</h5>
+                        &lt;!&ndash;<a><img src="img/c5_arrow.png" alt="CRM 바로가기"></a>&ndash;&gt;
+                    </div>
+                </div>-->
             </div>
         </section>
         <section class="second">
@@ -182,25 +163,6 @@
             </div>
         </section>
         <section class="fourth">
-<!--            <div class="fourthImg">
-            </div>
-            <div class="customer">
-                <ul>
-                    <li>
-                        <h1>문의처</h1>
-
-                    </li>
-                    <li>
-                        <div class="crmLetter">
-                            <h1>고객 CRM</h1>
-                        </div>
-                        <div class="link">
-                            <p><img src="img/crmlogo.svg" alt="고객 CRM"></p>
-                            <p><a><img src="img/c5_arrow.png" alt="CRM 바로가기"></a></p>
-                        </div>
-                    </li>
-                </ul>
-            </div>-->
             <div class="cmtInfo">
                 <div class="info">
                     <div class="infoTxt">
