@@ -13,15 +13,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/detail.css">
-    <title>Hello, world!</title>
+    <title>상세</title>
 </head>
 <body data-spy="scroll" data-target="#list-example">
 <header>
-    <a href="/"><img src="img/logo_kor.svg" alt="로고"></a>
-    <ul class="lang">
-        <li><a><span class="kor">KOR</span></a></li>
-        <li><a><span class="eng">ENG</span></a></li>
-    </ul>
+    <div class="header-wrap">
+        <a href="/"><img src="img/logo_kor.svg" alt="로고"></a>
+        <ul class="lang">
+            <li><a><span class="kor">KOR</span></a></li>
+            <li><a><span class="eng">ENG</span></a></li>
+        </ul>
+    </div>
 </header>
 <nav>
     <ul>
@@ -110,109 +112,53 @@
     </ul>
 </nav>
 <main>
-    <!--<section class="sub_menu">
-        <div class="menu_title">
-            <h5>보안컨설팅</h5>
-            <h1>컨설팅 수행절차</h1>
-        </div>
-        <ul class="sub_nav">
-            <li class="sub_menu_item"><a href="#none"><span>보안컨설팅</span></a></li>
-            <li class="sub_menu_item"><a href="#none"><span>컨설팅 수행절차</span></a> <a href="#none" class="sub_hide">▼</a>
-            </li>
-        </ul>
-    </section>-->
-    <section class="sub_index">
-        <div class="menu_title">
-            <h5>보안컨설팅</h5>
-            <h1>컨설팅 수행절차</h1>
-        </div>
-        <div>
-            <ul class="sub_nav">
-                <li class="sub_index_item"><a href="#none"><span>보안 컨설팅 서비스 종류</span></a></li>
-                <li class="sub_index_item"><a href="#none"><span>기술 취약점 진단</span></a></li>
-                <li class="sub_index_item"><a href="#none"><span>모의해킹</span></a></li>
-                <li class="sub_index_item"><a href="#none"><span>모바일 모의해킹</span></a></li>
-            </ul>
-        </div>
-    </section>
-    <section class="content">
-        <div id="list-example" class="list-group">
-            <ul>
-                <li><a class="list-group-item list-group-item-action" href="#list-item-1">환경 분석</a></li>
-                <li><a class="list-group-item list-group-item-action" href="#list-item-2">사업 수행</a></li>
-            </ul>
-        </div>
-        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-            <article>
-                <div class="artTitle">
-                    <h4 id="list-item-1">환경 분석</h4>
-                </div>
-                <div class="artContent">
-                    <p>고객사의 업무에 대한 이해를 토대로 ISMS 인증 범위와 관련된 문서 검토, 담당자 인터뷰, 현장실사와 보안 요구사항을 면밀히 분석하여 정확한 보안 현황을 파악합니다.</p>
-                    <img src="./img/sc_02_01.jpg" alt="업무현황 표">
-                </div>
-            </article>
-            <article>
-                <div class="artTitle">
-                    <h4 id="list-item-2">사업 수행</h4>
-                </div>
-                <div class="artContent">
-                    <p>컨설팅 사업의 성공적 수행을 위하여 각 단계별 세부 Task를 정의하고 각 Task들이 효과적이고 체계적으로 연계될 수 있도록 세부 수행 절차를 수립합니다.</p>
-                    <img src="./img/sc_02_02.jpg" alt="업무현황 표">
-                </div>
-            </article>
-        </div>
-    </section>
-    <!--<section class="contact">
-        &lt;!&ndash; Button trigger modal &ndash;&gt;
-        <button type="button" class="btn btn-primary contactBtn" data-toggle="modal" data-target="#exampleModal">
-            <i class="bi bi-telephone"></i>
-        </button>
-
-        &lt;!&ndash; Modal &ndash;&gt;
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">문의처</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <dl>
-                            <div>
-                                <dt>제품문의</dt>
-                                <dd>02-6011-1377</dd>
-                            </div>
-                            <div>
-                                <dt>보안관제센터</dt>
-                                <dd>02-6011-2337</dd>
-                            </div>
-                            <div>
-                                <dt>FAX</dt>
-                                <dd>02-463-1376</dd>
-                            </div>
-                            <div>
-                                <dt>Community</dt>
-                                <dd><a href='https://blog.naver.com/dtgate' target='_blank'>Blog</a></dd>
-                                <dd><a href='https://www.facebook.com/CMT-Informaion-Communication-107429781388328' target='_blank'>Facebook</a></dd>
-                                <dd><a href='https://twitter.com/cmtinfocomm' target='_blank'>Twitter</a></dd>
-                                <dd><a href='https://www.linkedin.com/company/cmtinfo' target='_blank'>Linkedin</a></dd>
-                                <dd><a href='https://www.youtube.com/channel/UC4gbO9WcU1LbCJ9QFMgL__A' target='_blank'>YouTube</a></dd>
-                            </div>
-                        </dl>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
+    <div class="section-wrap">
+        <section class="sub-index">
+            <div class="menu-title">
+                <h5>보안컨설팅</h5>
+                <h1>컨설팅 수행절차</h1>
             </div>
-        </div>
-    </section>-->
+            <div>
+                <ul class="sub-nav">
+                    <li class="sub-index-item"><a href="#none"><span>보안 컨설팅 서비스 종류</span></a></li>
+                    <li class="sub-index-item"><a href="#none"><span>기술 취약점 진단</span></a></li>
+                    <li class="sub-index-item"><a href="#none"><span>모의해킹</span></a></li>
+                    <li class="sub-index-item"><a href="#none"><span>모바일 모의해킹</span></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="content">
+            <div id="list-example" class="list-group">
+                <ul>
+                    <li><a class="list-group-item list-group-item-action" href="#list-item-1">환경 분석</a></li>
+                    <li><a class="list-group-item list-group-item-action" href="#list-item-2">사업 수행</a></li>
+                </ul>
+            </div>
+            <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                <article>
+                    <div class="art-title">
+                        <h4 id="list-item-1">환경 분석</h4>
+                    </div>
+                    <div class="art-content">
+                        <p>고객사의 업무에 대한 이해를 토대로 ISMS 인증 범위와 관련된 문서 검토, 담당자 인터뷰, 현장실사와 보안 요구사항을 면밀히 분석하여 정확한 보안 현황을 파악합니다.</p>
+                        <img src="./img/sc_02_01.jpg" alt="업무현황 표">
+                    </div>
+                </article>
+                <article>
+                    <div class="art-title">
+                        <h4 id="list-item-2">사업 수행</h4>
+                    </div>
+                    <div class="art-content">
+                        <p>컨설팅 사업의 성공적 수행을 위하여 각 단계별 세부 Task를 정의하고 각 Task들이 효과적이고 체계적으로 연계될 수 있도록 세부 수행 절차를 수립합니다.</p>
+                        <img src="./img/sc_02_02.jpg" alt="업무현황 표">
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
 </main>
 <footer>
-    <div class="footerInfo">
+    <div class="footer-info">
         <ul>
             <li>이용약관 및 법적고지</li>
             <li>개인정보 처리방침</li>
@@ -233,12 +179,6 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<!--
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
--->
 <script>
     $('body').scrollspy({ target: '#list-example' });
     $(function () {
