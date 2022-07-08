@@ -97,6 +97,21 @@ nav ul {
     text-decoration: none;
     color: black;
     line-height: 60px;
+    padding: 10px;
+}
+
+.main-menu:hover {
+    border-bottom: 1px solid lightgray;
+}
+
+
+.main-menu-item:hover > a{
+    border-bottom: 2px solid #21409A;
+}
+
+.main-menu:hover > li > ul {
+    transition: ease 0.5s;
+    height: 400px;
 }
 
 .sub-menu {
@@ -111,7 +126,6 @@ nav ul {
 }
 
 .sub-menu-item {
-    padding: 5px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -119,23 +133,16 @@ nav ul {
 }
 
 .sub-menu-item > a {
+    padding: 10px;
     text-decoration: none;
     word-break: keep-all;
     color: #282828;
 }
 
-.main-menu:hover {
-    border-bottom: 1px solid lightgray;
-}
-
-.main-menu:hover > li > ul {
-    transition: ease 0.5s;
-    height: 400px;
-}
-
 .sub-menu-item:hover {
     background: #21409A;
     color: #fcfcfc;
+    text-align: center;
     transition: ease 1s;
 }
 
@@ -296,6 +303,24 @@ section div {
     text-shadow: 2px 2px 2px #d9d9d9;
 }
 
+.intro ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+.intro li {
+    padding: 50px;
+    width: 25%;
+    border-left: 1px solid lightgray;
+}
+
+.intro li:last-child {
+    border-right: 1px solid lightgray;
+}
+
 .explain {
     font-size: 13px;
     color: #343434;
@@ -317,7 +342,6 @@ section div {
     margin: 0 auto;
 }
 
-
 .third {
     background: url(../img/cooperator.jpg) center center no-repeat;
 }
@@ -332,22 +356,35 @@ section div {
     text-shadow: 2px 2px 2px #d9d9d9;
 }
 
-.intro ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px auto;
+.slide-box {
+    position: relative;
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    background-color: #fcfcfc;
+    overflow: hidden;
+}
+
+.slide-wrap {
     padding: 0px;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    width: 2000px;
 }
 
-.intro li {
-    padding: 50px;
-    width: 25%;
-    border-left: 1px solid lightgray;
+.slide-wrap.animated {
+    transition: 0.5s ease-out;
 }
 
-.intro li:last-child {
-    border-right: 1px solid lightgray;
+.slide-item {
+    float: left;
+    width: 200px;
+    line-height: 70px;
+}
+
+.slide-item img {
+    margin: 0px auto;
 }
 
 .fourth {
@@ -367,9 +404,6 @@ section div {
     width: 1px;
     height: 100%;
     background-color: #fff;;
-}
-
-.cmt-info div {
 }
 
 .info, .crm {
@@ -476,10 +510,6 @@ section div {
     text-indent: -90000000em;
 }
 
-.slide-box {
-    width: 1200px;
-}
-
 .footer-info > ul {
     width: 1200px;
 }
@@ -508,16 +538,6 @@ aside {
     height: 100%;
     background-color: white;
     color: lightgray;
-}
-
-.slide-item {
-    width: 600px;
-    margin: auto;
-    padding: 0px;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 footer {
